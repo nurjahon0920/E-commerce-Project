@@ -13,10 +13,24 @@ h2 {
 header {
   font-family: Rubik;
   padding: 10px 0;
-
+  position: fixed;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  opacity: 0.97;
   .container {
     display: flex;
     align-items: center;
+    a {
+      display: flex;
+      font-family: Rubik-bold;
+      font-weight: 900;
+      align-items: center;
+      color: #414141;
+      img {
+        padding-right: 10px;
+      }
+    }
     .katalog-button {
       display: flex;
       padding: 8px;
@@ -35,18 +49,21 @@ header {
       justify-content: space-between;
       position: relative;
       margin-right: 40px;
+      align-items: center;
       .search-input {
+        border: 1px solid #70c05b;
         padding: 8px 0px 8px 8px;
         border-radius: 4px;
         font-size: 14px;
         width: 360px;
         height: 40px;
         gap: 10px;
-        border: 1px 1px 1px 1px;
+        // border: 1px 1px 1px 1px;
       }
       .search-img {
         position: absolute;
-        margin-right: -300px;
+        right: 8px;
+        top: 10;
       }
     }
     .header-card {
@@ -303,6 +320,138 @@ main {
           h4 {
             margin-bottom: 20px;
           }
+        }
+      }
+    }
+  }
+}
+footer {
+  background-image: url("/assets/images/footer/footer-bg.png");
+  background-color: #f9f4e2;
+  .container {
+    display: flex;
+    padding-top: 24px;
+    padding-bottom: 54px;
+    justify-content: space-between;
+    .footer-left {
+      //   margin: 20px;
+      display: flex;
+      align-items: center;
+      max-width: 740px;
+      justify-content: space-between;
+      gap: 40px;
+      a {
+        color: #414141;
+        font-size: 12px;
+      }
+    }
+    .footer-right {
+      display: flex;
+      position: relative;
+
+      &-web {
+        display: flex;
+        align-items: center;
+        max-width: 140px;
+        gap: 16px;
+        justify-content: space-between;
+        margin-right: 40px;
+      }
+      &-phone {
+        display: flex;
+        align-items: center;
+        padding-top: 8px;
+        p {
+          color: #414141;
+          font-size: 16px;
+        }
+      }
+      .footer-right-bottom {
+        display: flex;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        p {
+          padding-right: 8px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    font-family: Rubik;
+    padding: 10px 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    opacity: 0.97;
+    .container {
+      display: flex;
+      align-items: center;
+      // max-width: ;
+      a {
+        display: flex;
+        font-family: Rubik-bold;
+        font-weight: 900;
+        align-items: center;
+        color: #414141;
+        img {
+          padding-right: 10px;
+        }
+        p {
+          display: none;
+        }
+      }
+      .katalog-button {
+        display: flex;
+        padding: 8px;
+        background: #70c05b;
+        align-items: center;
+        margin-left: 10px;
+        margin-right: 16px;
+        border-radius: 4px;
+        p {
+          display: none;
+        }
+      }
+      .search {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        margin-right: 20px;
+        align-items: center;
+        .search-input {
+          border: 1px solid #70c05b;
+          padding: 8px 0px 8px 8px;
+          border-radius: 4px;
+          font-size: 14px;
+          max-width: 325px;
+          height: 40px;
+          gap: 10px;
+          // border: 1px 1px 1px 1px;
+        }
+        .search-img {
+          position: absolute;
+          right: 8px;
+          top: 10;
+        }
+      }
+      .header-card {
+        text-align: center;
+        margin-right: 24px;
+      }
+      .Алексей {
+        display: flex;
+        align-items: center;
+        p {
+          padding: 0 10px;
+        }
+        button {
+          background-color: #fff;
+          border: none;
         }
       }
     }
