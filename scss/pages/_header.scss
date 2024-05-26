@@ -1,0 +1,228 @@
+li,
+ol,
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+h2 {
+  font-family: Rubik-bold;
+  color: #414141;
+}
+header {
+  font-family: Rubik;
+  padding: 10px 0;
+
+  .container {
+    display: flex;
+    align-items: center;
+    .katalog-button {
+      display: flex;
+      padding: 8px;
+      background: #70c05b;
+      align-items: center;
+      margin-left: 40px;
+      margin-right: 16px;
+      border-radius: 4px;
+      p {
+        color: #fff;
+        padding-left: 16px;
+      }
+    }
+    .search {
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+      margin-right: 40px;
+      .search-input {
+        padding: 8px 0px 8px 8px;
+        border-radius: 4px;
+        font-size: 14px;
+        width: 360px;
+        height: 40px;
+        gap: 10px;
+        border: 1px 1px 1px 1px;
+      }
+      .search-img {
+        position: absolute;
+        margin-right: -300px;
+      }
+    }
+    .header-card {
+      text-align: center;
+      margin-right: 24px;
+    }
+    .Алексей {
+      display: flex;
+      align-items: center;
+      p {
+        padding: 0 10px;
+      }
+      button {
+        background-color: #fff;
+        border: none;
+      }
+    }
+  }
+}
+main {
+  padding-top: 80px;
+  background-color: #fbf8ec;
+  padding-bottom: 20px;
+  font-family: Rubik;
+  .container {
+    .sec1 {
+      margin-bottom: 120px;
+      .sec1-top {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+        h2 {
+          font-size: 36px;
+          font-weight: 700;
+          line-height: 54px;
+          text-align: left;
+        }
+        a {
+          display: flex;
+          align-items: center;
+          color: #606060;
+        }
+      }
+      .cards {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        max-width: 1208px;
+        .card {
+          display: flex;
+          flex-direction: column;
+          background-color: #ffffff;
+          border-radius: 1px;
+          max-width: 272px;
+          p {
+            color: #bfbfbf;
+          }
+          .sec1-card-top {
+            display: flex;
+            justify-content: space-between;
+            margin: 8px;
+
+            &-right {
+              h3 {
+                font-weight: 700;
+                color: #414141;
+              }
+            }
+            &-left {
+              font-weight: 400;
+            }
+          }
+          img {
+            padding-bottom: 8px;
+            max-width: 272px;
+            width: 100%;
+            padding-left: 8px;
+          }
+          .sec1-card-h4 {
+            padding-left: 8px;
+            padding-bottom: 8px;
+          }
+          button {
+            transition: 0.4s linear;
+            border: #04aa6d solid 1px;
+            padding: 8px 80px;
+            margin: 8px;
+            color: #70c05b;
+            font-size: 16px;
+            border-radius: 4px;
+            background-color: #fff;
+            &:hover {
+              border: #ff6633 solid 1px;
+              background-color: #ff6633;
+              color: white;
+              box-shadow: 4px 8px 16px 0px #ff663333;
+            }
+          }
+        }
+      }
+    }
+    .sec2,
+    .sec3 {
+      .card {
+        h3 {
+          padding-bottom: 26px;
+        }
+      }
+    }
+    .sec4 {
+      margin-bottom: 120px;
+      h2 {
+        font-size: 36px;
+        font-weight: 800;
+        line-height: 54px;
+      }
+      .sec4-cards {
+        display: flex;
+        margin-top: 40px;
+        .sec4-card {
+          display: flex;
+          max-width: 584px;
+          gap: 10px;
+          border-radius: 4px 0px 0px 0px;
+          border-radius: 4px;
+          margin-right: 40px;
+          .sec4-card-text {
+            padding: 30px 21px 44px 40px;
+            h3 {
+              font-size: 24px;
+              font-weight: 700;
+              line-height: 36px;
+              max-width: 250px;
+              padding-bottom: 6px;
+              font-family: Rubik-bold;
+              color: #414141;
+            }
+            p {
+              font-family: Rubik;
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 24px;
+              max-width: 258px;
+            }
+          }
+        }
+        .sec4-card1 {
+          background: #fcd5ba;
+          box-shadow: 0px 8px 16px 0px #ca936080;
+        }
+        .sec4-card2 {
+          background: #e5ffde;
+        }
+      }
+    }
+    .sec5 {
+      h2 {
+        font-family: Rubik-bold;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 54px;
+        text-align: left;
+      }
+      button {
+        width: 97px;
+        height: 32px;
+        padding: 8px;
+        gap: 8px;
+        border-radius: 4px;
+        background-color: #f3f2f1;
+        transition: 0.4s;
+        border: none;
+        &:hover {
+          background-color: #70c05b;
+        }
+      }
+    }
+  }
+}
