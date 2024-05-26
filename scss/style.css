@@ -497,7 +497,7 @@ footer .container .footer-right .footer-right-bottom p {
     left: 0;
     right: 0;
     background-color: #fff;
-    opacity: 0.97;
+    opacity: 0.9;
     z-index: 1000;
     margin-bottom: 70px;
     text-align: left;
@@ -585,7 +585,7 @@ footer .container .footer-right .footer-right-bottom p {
     padding-bottom: 495px;
   }
   main .background-img {
-    max-width: 1248px;
+    max-width: 768px;
     width: 100%;
     margin: 0 auto;
     left: 0;
@@ -980,6 +980,10 @@ footer .container .footer-right .footer-right-bottom p {
   }
 }
 @media (max-width: 360px) {
+  .container {
+    padding: 0 12px;
+    max-width: 336px;
+  }
   header {
     font-family: Rubik;
     padding: 10px 0;
@@ -1001,7 +1005,7 @@ footer .container .footer-right .footer-right-bottom p {
     color: #414141;
   }
   header .container a img {
-    padding-right: 10px;
+    padding-right: 20px;
   }
   header .container .katalog-button {
     display: flex;
@@ -1011,6 +1015,7 @@ footer .container .footer-right .footer-right-bottom p {
     margin-left: 40px;
     margin-right: 16px;
     border-radius: 4px;
+    display: none;
   }
   header .container .katalog-button p {
     color: #fff;
@@ -1028,7 +1033,7 @@ footer .container .footer-right .footer-right-bottom p {
     padding: 8px 0px 8px 8px;
     border-radius: 4px;
     font-size: 14px;
-    width: 360px;
+    width: 261px;
     height: 40px;
     gap: 10px;
   }
@@ -1040,10 +1045,12 @@ footer .container .footer-right .footer-right-bottom p {
   header .container .header-card {
     text-align: center;
     margin-right: 24px;
+    display: none;
   }
   header .container .Алексей {
     display: flex;
     align-items: center;
+    display: none;
   }
   header .container .Алексей p {
     padding: 0 10px;
@@ -1051,5 +1058,404 @@ footer .container .footer-right .footer-right-bottom p {
   header .container .Алексей button {
     background-color: #fff;
     border: none;
+  }
+  main {
+    padding-top: 80px;
+    background-color: #fbf8ec;
+    padding-bottom: 20px;
+    font-family: Rubik;
+    text-align: center;
+  }
+  main .background-img {
+    max-width: 360px;
+    width: 100%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 0;
+  }
+  main .container .sec-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+  }
+  main .container .sec-top h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+  }
+  main .container .sec-top a {
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    color: #606060;
+  }
+  main .container .sec-top a p {
+    width: 120px;
+  }
+  main .container .sec1 {
+    margin-bottom: 80px;
+  }
+  main .container .sec1 .cards {
+    display: flex;
+    justify-content: space-between;
+    width: 336px;
+    flex-wrap: wrap;
+    padding-right: 10px;
+  }
+  main .container .sec1 .cards .card {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 1px;
+    max-width: 160px;
+    text-align: left;
+  }
+  main .container .sec1 .cards .card p {
+    color: #bfbfbf;
+  }
+  main .container .sec1 .cards .card .sec1-card-top {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px;
+  }
+  main .container .sec1 .cards .card .sec1-card-top-right h3 {
+    font-weight: 700;
+    color: #414141;
+  }
+  main .container .sec1 .cards .card .sec1-card-top-left {
+    font-weight: 400;
+  }
+  main .container .sec1 .cards .card img {
+    padding-bottom: 8px;
+    max-width: 160px;
+    width: 100%;
+  }
+  main .container .sec1 .cards .card .sec1-card-h4 {
+    padding-left: 8px;
+    padding-bottom: 8px;
+    max-width: 250px;
+    width: 100%;
+    font-size: 12px;
+    font-weight: normal;
+  }
+  main .container .sec1 .cards .card .sec1-card-h4_2 {
+    padding-bottom: 18px;
+  }
+  main .container .sec1 .cards .card button {
+    transition: 0.4s linear;
+    border: #04aa6d solid 1px;
+    padding: 8px 30px;
+    margin: 8px;
+    color: #70c05b;
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+  main .container .sec1 .cards .card button:hover {
+    border: #ff6633 solid 1px;
+    background-color: #ff6633;
+    color: white;
+    box-shadow: 4px 8px 16px 0px rgba(255, 102, 51, 0.2);
+  }
+  main .container .sec1 .cards .card .sec1-card-button {
+    margin-top: 8px;
+  }
+  main .container .sec2,
+  main .container .sec3 {
+    margin-bottom: 80px;
+  }
+  main .container .sec2 .cards,
+  main .container .sec3 .cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 336px;
+    padding-right: 10px;
+  }
+  main .container .sec2 .cards .card,
+  main .container .sec3 .cards .card {
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 1px;
+    max-width: 160px;
+    gap: 5px;
+    flex-direction: column;
+    text-align: left;
+  }
+  main .container .sec2 .cards .card p,
+  main .container .sec3 .cards .card p {
+    color: #bfbfbf;
+  }
+  main .container .sec2 .cards .card .sec1-card-top,
+  main .container .sec3 .cards .card .sec1-card-top {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px;
+  }
+  main .container .sec2 .cards .card .sec1-card-top-right h3,
+  main .container .sec3 .cards .card .sec1-card-top-right h3 {
+    font-weight: 700;
+    color: #414141;
+  }
+  main .container .sec2 .cards .card .sec1-card-top-left,
+  main .container .sec3 .cards .card .sec1-card-top-left {
+    font-weight: 400;
+  }
+  main .container .sec2 .cards .card img,
+  main .container .sec3 .cards .card img {
+    padding-bottom: 8px;
+    max-width: 160px;
+    width: 100%;
+    padding-left: 8px;
+  }
+  main .container .sec2 .cards .card .sec1-card-h4,
+  main .container .sec3 .cards .card .sec1-card-h4 {
+    padding-left: 8px;
+    padding-bottom: 8px;
+    max-width: 250px;
+    width: 100%;
+    font-weight: normal;
+    font-size: 12px;
+  }
+  main .container .sec2 .cards .card button,
+  main .container .sec3 .cards .card button {
+    transition: 0.4s linear;
+    border: #04aa6d solid 1px;
+    padding: 8px 30px;
+    margin: 8px;
+    color: #70c05b;
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+  main .container .sec2 .cards .card button:hover,
+  main .container .sec3 .cards .card button:hover {
+    border: #ff6633 solid 1px;
+    background-color: #ff6633;
+    color: white;
+    box-shadow: 4px 8px 16px 0px rgba(255, 102, 51, 0.2);
+  }
+  main .container .sec2 .cards .card .sec1-card-button,
+  main .container .sec3 .cards .card .sec1-card-button {
+    margin-top: 8px;
+  }
+  main .container .sec2 .card h3,
+  main .container .sec3 .card h3 {
+    padding-bottom: 26px;
+  }
+  main .container .sec4 {
+    margin-bottom: 80px;
+  }
+  main .container .sec4 h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+  }
+  main .container .sec4 .sec4-cards {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  main .container .sec4 .sec4-cards .sec4-card {
+    display: flex;
+    border-radius: 4px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  main .container .sec4 .sec4-cards .sec4-card .sec4-card-text {
+    margin: 30px 0 44px 40px;
+  }
+  main .container .sec4 .sec4-cards .sec4-card .sec4-card-text h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    max-width: 258px;
+    padding-bottom: 6px;
+    font-family: Rubik-bold;
+    color: #414141;
+  }
+  main .container .sec4 .sec4-cards .sec4-card .sec4-card-text p {
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    max-width: 258px;
+  }
+  main .container .sec4 .sec4-cards .sec4-card1 {
+    background: #fcd5ba;
+    box-shadow: 0px 8px 16px 0px rgba(202, 147, 96, 0.5019607843);
+    max-width: 336px;
+    align-items: center;
+    text-align: center;
+    position: relative;
+  }
+  main .container .sec4 .sec4-cards .sec4-card1 .sec4-card-text {
+    padding-right: 10px;
+  }
+  main .container .sec4 .sec4-cards .sec4-card1 img {
+    position: absolute;
+    top: 45px;
+    left: 190px;
+    max-width: 153px;
+    width: 100%;
+    height: 130px;
+    opacity: 0.7;
+  }
+  main .container .sec4 .sec4-cards .sec4-card2 {
+    background: #e5ffde;
+    max-width: 336px;
+    align-items: center;
+    text-align: center;
+  }
+  main .container .sec4 .sec4-cards .sec4-card2 .sec4-card-text {
+    width: 174px;
+  }
+  main .container .sec4 .sec4-cards .sec4-card2 img {
+    max-width: 132px;
+    width: 100%;
+    height: 126px;
+    top: 45px;
+    right: 4px;
+  }
+  main .container .sec5 h2 {
+    font-family: Rubik-bold;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    text-align: left;
+  }
+  main .container .sec5 .sec5-buttons {
+    display: flex;
+    margin-bottom: 28px;
+    flex-wrap: wrap;
+  }
+  main .container .sec5 .sec5-buttons button {
+    width: 97px;
+    height: 32px;
+    padding: 8px;
+    gap: 8px;
+    border-radius: 4px;
+    background-color: #f3f2f1;
+    transition: 0.4s;
+    border: none;
+    gap: 16px;
+  }
+  main .container .sec5 .sec5-buttons button:hover {
+    color: #fff;
+    background-color: #70c05b;
+  }
+  main .container .sec5 img {
+    max-width: 360px;
+    width: 100%;
+  }
+  main .container .sec6 {
+    margin-top: 120px;
+    margin-bottom: 80px;
+  }
+  main .container .sec6 .sec-top {
+    margin-bottom: 30px;
+  }
+  main .container .sec6 .sec6-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  main .container .sec6 .sec6-cards .sec6-card {
+    max-width: 336px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  main .container .sec6 .sec6-cards .sec6-card img {
+    max-width: 336px;
+    width: 100%;
+    border-radius: 4px 4px 0px 0px;
+  }
+  main .container .sec6 .sec6-cards .sec6-card p {
+    padding: 10px 0 0 10px;
+    color: #8f8f8f;
+  }
+  main .container .sec6 .sec6-cards .sec6-card h3 {
+    padding: 10px;
+    max-width: 330px;
+    color: #414141;
+  }
+  main .container .sec6 .sec6-cards .sec6-card h4 {
+    padding: 0 10px;
+    margin-bottom: 5px;
+    font-weight: normal;
+    color: #414141;
+  }
+  main .container .sec6 .sec6-cards .sec6-card button {
+    width: 150px;
+    height: 40px;
+    padding: 8px;
+    gap: 8px;
+    border-radius: 4px;
+    background: #e5ffde;
+    border: none;
+    margin: 10px;
+    color: #70c05b;
+    transition: 0.5s;
+  }
+  main .container .sec6 .sec6-cards .sec6-card button:hover {
+    background-color: #70c05b;
+    color: white;
+    box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.1019607843);
+  }
+  main .container .sec6 .sec6-cards .sec6-card2 h4 {
+    margin-bottom: 20px;
+  }
+  footer {
+    background-image: url("/assets/images/footer/footer-bg.png");
+    background-color: #f9f4e2;
+  }
+  footer .container {
+    display: flex;
+    padding-top: 24px;
+    padding-bottom: 54px;
+    justify-content: space-between;
+  }
+  footer .container .footer-left {
+    align-items: start;
+    max-width: 740px;
+    gap: 40px;
+  }
+  footer .container .footer-left .footer-left-menu {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  footer .container .footer-left .footer-left-menu a {
+    color: #414141;
+    font-size: 12px;
+  }
+  footer .container .footer-right {
+    position: relative;
+  }
+  footer .container .footer-right-web {
+    display: flex;
+    align-items: center;
+    max-width: 140px;
+    gap: 16px;
+    justify-content: space-between;
+    margin-right: 40px;
+  }
+  footer .container .footer-right-phone {
+    display: flex;
+    align-items: center;
+    padding-top: 8px;
+  }
+  footer .container .footer-right-phone p {
+    color: #414141;
+    font-size: 16px;
+  }
+  footer .container .footer-right .footer-right-bottom {
+    display: none;
+  }
+  footer .container .footer-right .footer-right-bottom p {
+    padding-right: 8px;
   }
 }/*# sourceMappingURL=style.css.map */
