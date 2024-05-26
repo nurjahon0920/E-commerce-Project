@@ -72,24 +72,24 @@ main {
   padding-bottom: 20px;
   font-family: Rubik;
   .container {
+    .sec-top {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 40px;
+      h2 {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 54px;
+        text-align: left;
+      }
+      a {
+        display: flex;
+        align-items: center;
+        color: #606060;
+      }
+    }
     .sec1 {
       margin-bottom: 120px;
-      .sec1-top {
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 40px;
-        h2 {
-          font-size: 36px;
-          font-weight: 700;
-          line-height: 54px;
-          text-align: left;
-        }
-        a {
-          display: flex;
-          align-items: center;
-          color: #606060;
-        }
-      }
       .cards {
         display: flex;
         justify-content: space-between;
@@ -166,20 +166,22 @@ main {
       .sec4-cards {
         display: flex;
         margin-top: 40px;
+        justify-content: space-between;
+        flex-wrap: wrap;
         .sec4-card {
           display: flex;
-          max-width: 584px;
           gap: 10px;
-          border-radius: 4px 0px 0px 0px;
           border-radius: 4px;
-          margin-right: 40px;
+          //   margin-right: 40px;
+          justify-content: space-between;
+          margin-bottom: 20px;
           .sec4-card-text {
-            padding: 30px 21px 44px 40px;
+            margin: 30px 10px 44px 40px;
             h3 {
               font-size: 24px;
               font-weight: 700;
               line-height: 36px;
-              max-width: 250px;
+              max-width: 258px;
               padding-bottom: 6px;
               font-family: Rubik-bold;
               color: #414141;
@@ -196,9 +198,22 @@ main {
         .sec4-card1 {
           background: #fcd5ba;
           box-shadow: 0px 8px 16px 0px #ca936080;
+          max-width: 584px;
+          img {
+            max-width: 253px;
+            width: 100%;
+          }
         }
         .sec4-card2 {
           background: #e5ffde;
+          max-width: 584px;
+          .sec4-card-text {
+            width: 258px;
+          }
+          img {
+            max-width: 253px;
+            width: 100%;
+          }
         }
       }
     }
@@ -210,17 +225,84 @@ main {
         line-height: 54px;
         text-align: left;
       }
-      button {
-        width: 97px;
-        height: 32px;
-        padding: 8px;
-        gap: 8px;
-        border-radius: 4px;
-        background-color: #f3f2f1;
-        transition: 0.4s;
-        border: none;
-        &:hover {
-          background-color: #70c05b;
+      .sec5-buttons {
+        display: flex;
+        margin-bottom: 28px;
+        flex-wrap: wrap;
+        button {
+          width: 97px;
+          height: 32px;
+          padding: 8px;
+          gap: 8px;
+          border-radius: 4px;
+          background-color: #f3f2f1;
+          transition: 0.4s;
+          border: none;
+          &:hover {
+            color: #fff;
+            background-color: #70c05b;
+          }
+        }
+      }
+      img {
+        max-width: 1208px;
+        width: 100%;
+      }
+    }
+    .sec6 {
+      margin-top: 120px;
+      margin-bottom: 80px;
+      .sec-top {
+        margin-bottom: 40px;
+      }
+      .sec6-cards {
+        display: flex;
+        justify-content: space-between;
+        .sec6-card {
+          max-width: 376px;
+          border-radius: 4px;
+          img {
+            max-width: 376px;
+            width: 100%;
+            border-radius: 4px 4px 0px 0px;
+          }
+          p {
+            padding: 10px 0 0 10px;
+            color: #8f8f8f;
+          }
+          h3 {
+            padding: 10px;
+            max-width: 330px;
+            color: #414141;
+          }
+          h4 {
+            padding: 0 10px;
+            margin-bottom: 5px;
+            font-weight: normal;
+            color: #414141;
+          }
+          button {
+            width: 150px;
+            height: 40px;
+            padding: 8px;
+            gap: 8px;
+            border-radius: 4px;
+            background: #e5ffde;
+            border: none;
+            margin: 10px;
+            color: #70c05b;
+            transition: 0.5s;
+            &:hover {
+              background-color: #70c05b;
+              color: white;
+              box-shadow: 1px 2px 4px 0px #0000001a;
+            }
+          }
+        }
+        .sec6-card2 {
+          h4 {
+            margin-bottom: 20px;
+          }
         }
       }
     }

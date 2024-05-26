@@ -97,24 +97,24 @@ main {
   padding-bottom: 20px;
   font-family: Rubik;
 }
-main .container .sec1 {
-  margin-bottom: 120px;
-}
-main .container .sec1 .sec1-top {
+main .container .sec-top {
   display: flex;
   justify-content: space-between;
   margin-bottom: 40px;
 }
-main .container .sec1 .sec1-top h2 {
+main .container .sec-top h2 {
   font-size: 36px;
   font-weight: 700;
   line-height: 54px;
   text-align: left;
 }
-main .container .sec1 .sec1-top a {
+main .container .sec-top a {
   display: flex;
   align-items: center;
   color: #606060;
+}
+main .container .sec1 {
+  margin-bottom: 120px;
 }
 main .container .sec1 .cards {
   display: flex;
@@ -185,23 +185,24 @@ main .container .sec4 h2 {
 main .container .sec4 .sec4-cards {
   display: flex;
   margin-top: 40px;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 main .container .sec4 .sec4-cards .sec4-card {
   display: flex;
-  max-width: 584px;
   gap: 10px;
-  border-radius: 4px 0px 0px 0px;
   border-radius: 4px;
-  margin-right: 40px;
+  justify-content: space-between;
+  margin-bottom: 20px;
 }
 main .container .sec4 .sec4-cards .sec4-card .sec4-card-text {
-  padding: 30px 21px 44px 40px;
+  margin: 30px 10px 44px 40px;
 }
 main .container .sec4 .sec4-cards .sec4-card .sec4-card-text h3 {
   font-size: 24px;
   font-weight: 700;
   line-height: 36px;
-  max-width: 250px;
+  max-width: 258px;
   padding-bottom: 6px;
   font-family: Rubik-bold;
   color: #414141;
@@ -216,9 +217,22 @@ main .container .sec4 .sec4-cards .sec4-card .sec4-card-text p {
 main .container .sec4 .sec4-cards .sec4-card1 {
   background: #fcd5ba;
   box-shadow: 0px 8px 16px 0px rgba(202, 147, 96, 0.5019607843);
+  max-width: 584px;
+}
+main .container .sec4 .sec4-cards .sec4-card1 img {
+  max-width: 253px;
+  width: 100%;
 }
 main .container .sec4 .sec4-cards .sec4-card2 {
   background: #e5ffde;
+  max-width: 584px;
+}
+main .container .sec4 .sec4-cards .sec4-card2 .sec4-card-text {
+  width: 258px;
+}
+main .container .sec4 .sec4-cards .sec4-card2 img {
+  max-width: 253px;
+  width: 100%;
 }
 main .container .sec5 h2 {
   font-family: Rubik-bold;
@@ -227,7 +241,12 @@ main .container .sec5 h2 {
   line-height: 54px;
   text-align: left;
 }
-main .container .sec5 button {
+main .container .sec5 .sec5-buttons {
+  display: flex;
+  margin-bottom: 28px;
+  flex-wrap: wrap;
+}
+main .container .sec5 .sec5-buttons button {
   width: 97px;
   height: 32px;
   padding: 8px;
@@ -237,6 +256,66 @@ main .container .sec5 button {
   transition: 0.4s;
   border: none;
 }
-main .container .sec5 button:hover {
+main .container .sec5 .sec5-buttons button:hover {
+  color: #fff;
   background-color: #70c05b;
+}
+main .container .sec5 img {
+  max-width: 1208px;
+  width: 100%;
+}
+main .container .sec6 {
+  margin-top: 120px;
+  margin-bottom: 80px;
+}
+main .container .sec6 .sec-top {
+  margin-bottom: 40px;
+}
+main .container .sec6 .sec6-cards {
+  display: flex;
+  justify-content: space-between;
+}
+main .container .sec6 .sec6-cards .sec6-card {
+  max-width: 376px;
+  border-radius: 4px;
+}
+main .container .sec6 .sec6-cards .sec6-card img {
+  max-width: 376px;
+  width: 100%;
+  border-radius: 4px 4px 0px 0px;
+}
+main .container .sec6 .sec6-cards .sec6-card p {
+  padding: 10px 0 0 10px;
+  color: #8f8f8f;
+}
+main .container .sec6 .sec6-cards .sec6-card h3 {
+  padding: 10px;
+  max-width: 330px;
+  color: #414141;
+}
+main .container .sec6 .sec6-cards .sec6-card h4 {
+  padding: 0 10px;
+  margin-bottom: 5px;
+  font-weight: normal;
+  color: #414141;
+}
+main .container .sec6 .sec6-cards .sec6-card button {
+  width: 150px;
+  height: 40px;
+  padding: 8px;
+  gap: 8px;
+  border-radius: 4px;
+  background: #e5ffde;
+  border: none;
+  margin: 10px;
+  color: #70c05b;
+  transition: 0.5s;
+}
+main .container .sec6 .sec6-cards .sec6-card button:hover {
+  background-color: #70c05b;
+  color: white;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.1019607843);
+}
+main .container .sec6 .sec6-cards .sec6-card2 h4 {
+  margin-bottom: 20px;
 }/*# sourceMappingURL=style.css.map */
