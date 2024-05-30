@@ -1,0 +1,266 @@
+li,
+ol,
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+h2 {
+  font-family: Rubik-bold;
+  color: #414141;
+}
+
+// header {
+//   font-family: Rubik;
+//   padding: 10px 0;
+//   position: fixed;
+//   left: 0;
+//   right: 0;
+//   background-color: #fff;
+//   opacity: 0.9;
+//   .container {
+//     display: flex;
+//     align-items: center;
+//     a {
+//       display: flex;
+//       font-family: Rubik-bold;
+//       font-weight: 900;
+//       align-items: center;
+//       color: #414141;
+//       img {
+//         padding-right: 10px;
+//       }
+//     }
+//     .katalog-button {
+//       display: flex;
+//       padding: 8px;
+//       background: #70c05b;
+//       align-items: center;
+//       margin-left: 40px;
+//       margin-right: 16px;
+//       border-radius: 4px;
+//       p {
+//         color: #fff;
+//         padding-left: 16px;
+//       }
+//     }
+//     .search {
+//       display: flex;
+//       justify-content: space-between;
+//       position: relative;
+//       margin-right: 40px;
+//       align-items: center;
+//       .search-input {
+//         border: 1px solid #70c05b;
+//         padding: 8px 0px 8px 8px;
+//         border-radius: 4px;
+//         font-size: 14px;
+//         width: 360px;
+//         height: 40px;
+//         gap: 10px;
+//       }
+//       .search-img {
+//         position: absolute;
+//         right: 8px;
+//         top: 10;
+//       }
+//     }
+//     .header-card {
+//       text-align: center;
+//       margin-right: 24px;
+//     }
+//     .Алексей {
+//       display: flex;
+//       align-items: center;
+//       p {
+//         padding: 0 10px;
+//       }
+//       button {
+//         background-color: #fff;
+//         border: none;
+//       }
+//     }
+//   }
+// }
+main {
+  padding-top: 80px;
+  background-color: #fbf8ec;
+  padding-bottom: 20px;
+  font-family: Rubik;
+  text-align: center;
+  h1 {
+    font-family: Rubik-bold;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 96px;
+    text-align: left;
+    margin-bottom: 60px;
+    margin-top: 24px;
+    color: #414141;
+  }
+  .categories_images {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1208px;
+    gap: 40px;
+    .katta_rasm {
+      max-width: 584px;
+    }
+    .kichik_rasm {
+      max-width: 272px;
+    }
+  }
+}
+
+footer {
+  background-image: url("/assets/images/footer/footer-bg.png");
+  background-color: #f9f4e2;
+  .container {
+    display: flex;
+    padding-top: 24px;
+    padding-bottom: 54px;
+    justify-content: space-between;
+    .footer-left {
+      //   margin: 20px;
+      display: flex;
+      align-items: center;
+      max-width: 740px;
+      justify-content: space-between;
+      gap: 40px;
+      .footer-left-menu {
+        display: flex;
+        gap: 40px;
+        a {
+          color: #414141;
+          font-size: 12px;
+        }
+      }
+    }
+    .footer-right {
+      display: flex;
+      position: relative;
+
+      &-web {
+        display: flex;
+        align-items: center;
+        max-width: 140px;
+        gap: 16px;
+        justify-content: space-between;
+        margin-right: 40px;
+      }
+      &-phone {
+        display: flex;
+        align-items: center;
+        padding-top: 8px;
+        p {
+          color: #414141;
+          font-size: 16px;
+        }
+      }
+      .footer-right-bottom {
+        display: flex;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        p {
+          padding-right: 8px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 736px;
+    padding: 0 16px;
+    margin: 0 auto;
+  }
+  header {
+    font-family: Rubik;
+    padding: 10px 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    opacity: 0.9;
+    z-index: 1000;
+    margin-bottom: 70px;
+    text-align: left;
+    padding-right: 20px;
+    .container {
+      display: flex;
+      align-items: center;
+      max-width: 728px;
+      a {
+        display: flex;
+        font-family: Rubik-bold;
+        font-weight: 900;
+        align-items: center;
+        color: #414141;
+        img {
+          padding-right: 10px;
+        }
+        p {
+          display: none;
+        }
+      }
+      .katalog-button {
+        display: flex;
+        padding: 8px;
+        background: #70c05b;
+        align-items: center;
+        margin-left: 10px;
+        margin-right: 16px;
+        border-radius: 4px;
+        p {
+          display: none;
+        }
+      }
+      .search {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        margin-right: 20px;
+        align-items: center;
+        .search-input {
+          border: 1px solid #70c05b;
+          padding: 8px;
+          border-radius: 4px;
+          font-size: 14px;
+          max-width: 305px;
+          height: 40px;
+          gap: 10px;
+        }
+        .search-img {
+          position: absolute;
+          right: 8px;
+          top: 10;
+          width: 24px;
+          height: 24px;
+        }
+      }
+      .header-card {
+        text-align: center;
+        margin-right: 16px;
+        p {
+          font-size: 12px;
+        }
+      }
+      .Алексей {
+        display: flex;
+        align-items: center;
+        p {
+          padding: 0 10px;
+          display: none;
+        }
+        button {
+          background-color: #fff;
+          border: none;
+          display: none;
+        }
+      }
+    }
+  }
+}

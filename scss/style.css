@@ -26,6 +26,10 @@ ul {
   list-style: none;
 }
 
+button {
+  cursor: pointer !important;
+}
+
 a {
   text-decoration: none;
 }
@@ -1457,5 +1461,199 @@ footer .container .footer-right .footer-right-bottom p {
   }
   footer .container .footer-right .footer-right-bottom p {
     padding-right: 8px;
+  }
+}
+li,
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-family: Rubik-bold;
+  color: #414141;
+}
+
+main {
+  padding-top: 80px;
+  background-color: #fbf8ec;
+  padding-bottom: 20px;
+  font-family: Rubik;
+  text-align: center;
+}
+main h1 {
+  font-family: Rubik-bold;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 96px;
+  text-align: left;
+  margin-bottom: 60px;
+  margin-top: 24px;
+  color: #414141;
+}
+main .categories_images {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1208px;
+  gap: 40px;
+}
+main .categories_images .katta_rasm {
+  max-width: 584px;
+}
+main .categories_images .kichik_rasm {
+  max-width: 272px;
+}
+
+footer {
+  background-image: url("/assets/images/footer/footer-bg.png");
+  background-color: #f9f4e2;
+}
+footer .container {
+  display: flex;
+  padding-top: 24px;
+  padding-bottom: 54px;
+  justify-content: space-between;
+}
+footer .container .footer-left {
+  display: flex;
+  align-items: center;
+  max-width: 740px;
+  justify-content: space-between;
+  gap: 40px;
+}
+footer .container .footer-left .footer-left-menu {
+  display: flex;
+  gap: 40px;
+}
+footer .container .footer-left .footer-left-menu a {
+  color: #414141;
+  font-size: 12px;
+}
+footer .container .footer-right {
+  display: flex;
+  position: relative;
+}
+footer .container .footer-right-web {
+  display: flex;
+  align-items: center;
+  max-width: 140px;
+  gap: 16px;
+  justify-content: space-between;
+  margin-right: 40px;
+}
+footer .container .footer-right-phone {
+  display: flex;
+  align-items: center;
+  padding-top: 8px;
+}
+footer .container .footer-right-phone p {
+  color: #414141;
+  font-size: 16px;
+}
+footer .container .footer-right .footer-right-bottom {
+  display: flex;
+  position: absolute;
+  top: 60px;
+  right: 0;
+}
+footer .container .footer-right .footer-right-bottom p {
+  padding-right: 8px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 736px;
+    padding: 0 16px;
+    margin: 0 auto;
+  }
+  header {
+    font-family: Rubik;
+    padding: 10px 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    opacity: 0.9;
+    z-index: 1000;
+    margin-bottom: 70px;
+    text-align: left;
+    padding-right: 20px;
+  }
+  header .container {
+    display: flex;
+    align-items: center;
+    max-width: 728px;
+  }
+  header .container a {
+    display: flex;
+    font-family: Rubik-bold;
+    font-weight: 900;
+    align-items: center;
+    color: #414141;
+  }
+  header .container a img {
+    padding-right: 10px;
+  }
+  header .container a p {
+    display: none;
+  }
+  header .container .katalog-button {
+    display: flex;
+    padding: 8px;
+    background: #70c05b;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 16px;
+    border-radius: 4px;
+  }
+  header .container .katalog-button p {
+    display: none;
+  }
+  header .container .search {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-right: 20px;
+    align-items: center;
+  }
+  header .container .search .search-input {
+    border: 1px solid #70c05b;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 14px;
+    max-width: 305px;
+    height: 40px;
+    gap: 10px;
+  }
+  header .container .search .search-img {
+    position: absolute;
+    right: 8px;
+    top: 10;
+    width: 24px;
+    height: 24px;
+  }
+  header .container .header-card {
+    text-align: center;
+    margin-right: 16px;
+  }
+  header .container .header-card p {
+    font-size: 12px;
+  }
+  header .container .Алексей {
+    display: flex;
+    align-items: center;
+  }
+  header .container .Алексей p {
+    padding: 0 10px;
+    display: none;
+  }
+  header .container .Алексей button {
+    background-color: #fff;
+    border: none;
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */
