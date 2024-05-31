@@ -27,7 +27,7 @@ ul {
 }
 
 button {
-  cursor: pointer !important;
+  cursor: pointer;
 }
 
 a {
@@ -102,14 +102,12 @@ header .container .header-card {
 }
 header .container .Алексей {
   display: flex;
+  justify-content: space-between;
   align-items: center;
+  border: none;
 }
 header .container .Алексей p {
   padding: 0 10px;
-}
-header .container .Алексей button {
-  background-color: #fff;
-  border: none;
 }
 
 main {
@@ -1655,5 +1653,94 @@ footer .container .footer-right .footer-right-bottom p {
     background-color: #fff;
     border: none;
     display: none;
+  }
+}
+.container .modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(252, 213, 186, 0.8);
+  opacity: 80%;
+  align-items: center;
+  justify-content: center;
+  animation: modalScale 0.3s linear alternate;
+}
+.container .modal .modal-content {
+  width: 420px;
+  height: 430px;
+  animation: modalScale 0.5s linear alternate;
+  padding-top: 72px;
+  padding-left: 80px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px 5px rgba(0, 0, 0, 0.6);
+  background: #fff;
+  text-align: center;
+  opacity: 100%;
+}
+.container .modal .modal-content h4 {
+  padding-bottom: 32px;
+}
+.container .modal .modal-content form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.container .modal .modal-content form input {
+  width: 260px;
+  height: 40px;
+  padding: 12px 16px;
+  border: 1px solid #70c05b;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.container .modal .modal-content button {
+  width: 260px;
+  height: 68px;
+  padding: 16px;
+  gap: 8px;
+  border-radius: 4px;
+  border: none;
+  background-color: #fcd5ba;
+  color: #ff6633;
+  font-size: 24px;
+}
+.container .modal .modal-content .modal_bottom {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.container .modal .modal-content .modal_bottom .modal_bottom-1 {
+  width: 121px;
+  height: 32px;
+  padding: 8px;
+  gap: 8px;
+  border-radius: 4px;
+  border: 1px;
+}
+.modal.open {
+  display: flex;
+}
+
+@keyframes modalScale {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+@keyframes closeModal {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(0);
   }
 }/*# sourceMappingURL=style.css.map */

@@ -4,7 +4,7 @@ ul {
   list-style: none;
 }
 button {
-  cursor: pointer !important;
+  cursor: pointer;
 }
 a {
   text-decoration: none;
@@ -28,6 +28,7 @@ header {
       display: flex;
       font-family: Rubik-bold;
       font-weight: 900;
+
       align-items: center;
       color: #414141;
       img {
@@ -74,14 +75,13 @@ header {
     }
     .Алексей {
       display: flex;
+      justify-content: space-between;
       align-items: center;
       p {
         padding: 0 10px;
       }
-      button {
-        background-color: #fff;
-        border: none;
-      }
+      // background-color: #fff;
+      border: none;
     }
   }
 }
