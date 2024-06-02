@@ -307,14 +307,14 @@ header .container {
   display: flex;
   align-items: center;
 }
-header .container a {
+header .container .header-logo {
   display: flex;
   font-family: Rubik-bold;
   font-weight: 900;
   align-items: center;
   color: #414141;
 }
-header .container a img {
+header .container .header-logo img {
   padding-right: 10px;
 }
 header .container .katalog-button {
