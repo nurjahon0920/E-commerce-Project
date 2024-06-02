@@ -45,7 +45,6 @@ header {
       margin-left: 40px;
       margin-right: 16px;
       border-radius: 4px;
-      background-color: #fff;
       p {
         color: #fff;
         padding-left: 16px;
@@ -78,7 +77,6 @@ header {
     }
     .Алексей {
       display: flex;
-      justify-content: space-between;
       align-items: center;
       p {
         padding: 0 10px;
@@ -87,6 +85,11 @@ header {
       border: none;
     }
   }
+}
+.content {
+  display: flex;
+  align-items: center;
+  border: 1px solid red;
 }
 main {
   padding-top: 80px;
