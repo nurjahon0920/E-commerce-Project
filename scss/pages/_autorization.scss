@@ -18,7 +18,6 @@
       width: 420px;
       height: 430px;
       animation: modalScale 0.5s linear alternate;
-      padding-top: 72px;
       padding-left: 80px;
       margin: 0 auto;
       border-radius: 10px;
@@ -26,13 +25,19 @@
       background: #fff;
       text-align: center;
       opacity: 100%;
+      img {
+        top: 0;
+        left: 0;
+        margin-left: 300px;
+      }
       h4 {
-        padding-bottom: 32px;
+        font-size: 24px;
+        padding: 52px 100px 32px 0;
       }
       form {
         display: flex;
         flex-direction: column;
-        padding: 20px;
+        // padding: 20px;
         input {
           width: 260px;
           height: 40px;
@@ -45,7 +50,7 @@
       button {
         width: 260px;
         height: 68px;
-        padding: 16px;
+        padding: 16px 16px 16px 0;
         gap: 8px;
         border-radius: 4px;
         // opacity: 0px;
@@ -53,20 +58,28 @@
         background-color: #fcd5ba;
         color: #ff6633;
         font-size: 24px;
+        margin-right: 79px;
+        margin-bottom: 32px;
       }
       .modal_bottom {
         display: flex;
         align-items: center;
         text-align: center;
+        padding-top: 5px;
+        gap: 16px;
+        // background-color: aqua;
         .modal_bottom-1 {
           width: 121px;
           height: 32px;
-          padding: 8px;
-          gap: 8px;
+          padding: 6px 8px 8px 8px;
           border-radius: 4px;
-          border: 1px;
+          border: 1px solid #70c05b;
+          color: #70c05b;
+          text-align: center;
+          align-items: center;
         }
         .modal_bottom-2 {
+          color: #606060;
         }
       }
     }
