@@ -66,6 +66,7 @@ main .container .sec1-bottom {
 }
 main .container .sec1-bottom-left {
   display: flex;
+  max-width: 600px;
 }
 main .container .sec1-bottom-left img {
   cursor: pointer;
@@ -80,8 +81,15 @@ main .container .sec1-bottom-left .images img {
   max-width: 80px;
   margin-bottom: 26px;
 }
-main .container .sec1-bottom-left .big-img img {
+main .container .sec1-bottom-left #show {
   max-width: 504px;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+main .container .sec1-bottom-left #show img {
+  max-width: 504px;
+  width: 100%;
 }
 main .container .sec1-bottom-right {
   padding-bottom: 2px;
@@ -283,7 +291,6 @@ main .container .sec3 .cards .card .sec3-card-button {
   font-family: Rubik-bold;
   font-size: 36px;
   color: #414141;
-  /* margin-top: 50px; */
 }
 .products main .container .cards {
   display: flex;
@@ -291,7 +298,6 @@ main .container .sec3 .cards .card .sec3-card-button {
   align-items: center;
   justify-content: space-between;
   gap: 30px;
-  /* margin-top: 50px; */
   width: 1208px;
 }
 .products main .container .cards .card {
@@ -379,7 +385,6 @@ header {
   left: 0;
   right: 0;
   background-color: #fff;
-  opacity: 0.9;
 }
 header .container {
   display: flex;
@@ -403,6 +408,7 @@ header .container .katalog-button {
   margin-left: 40px;
   margin-right: 16px;
   border-radius: 4px;
+  cursor: pointer;
 }
 header .container .katalog-button p {
   color: #fff;
@@ -432,10 +438,12 @@ header .container .search .search-img {
 header .container .header-card {
   text-align: center;
   margin-right: 24px;
+  cursor: pointer;
 }
 header .container .Алексей {
   display: flex;
   align-items: center;
+  cursor: pointer;
   border: none;
 }
 header .container .Алексей p {
