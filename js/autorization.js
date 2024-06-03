@@ -1,6 +1,6 @@
 const btnOpen = document.getElementById("btn-open");
 const btnClose = document.getElementById("btn-close");
-const modalClose = document.getElementById(
+const modalClose = document.querySelector(
   "modal_bottom-1",
   "modal_bottom-2",
   "modal-img"
