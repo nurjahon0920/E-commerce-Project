@@ -26,8 +26,6 @@ main {
             padding-right: 8px;
           }
           p {
-            // display: block;
-            // list-style: ;
             text-decoration: underline;
           }
         }
@@ -40,10 +38,6 @@ main {
             padding-right: 8px;
           }
         }
-        // .heart {
-        //   display: flex;
-        //   align-items: center;
-        // }
       }
       &-bottom {
         display: flex;
@@ -100,7 +94,6 @@ main {
           }
           button {
             display: flex;
-            // justify-content: center;
             text-align: center;
             width: 269px;
             margin: auto;
@@ -114,10 +107,6 @@ main {
             font-size: 24px;
             transition: 0.4s;
             padding-right: 5px;
-            //   &:hover {
-            //     background: white;
-            //     color: #ff6633;
-            //   }
           }
           &-bottom {
             display: flex;
@@ -127,12 +116,6 @@ main {
             min-width: 584px;
             &-text {
               padding-right: 70px;
-              //   :first-child {
-              //   background-color: #f3f2f1;
-              //   }
-              //   :last-child {
-              //     background-color: #f3f2f1;
-              //   }
               p {
                 padding: 8px;
                 margin-left: 8px;

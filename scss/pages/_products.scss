@@ -1,0 +1,79 @@
+.products {
+  main {
+    .container {
+      font-family: Rubik;
+      background-color: #fbf8ec;
+      padding-top: 44px;
+      .products-h1 {
+        font-family: Rubik-bold;
+        font-size: 36px;
+        color: #414141;
+      }
+      .cards {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+        width: 1208px;
+
+        .card {
+          display: flex;
+          width: 272px;
+          height: 349px;
+          margin-top: 50px;
+          background-color: #fff;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          text-align: left;
+          button {
+            transition: 0.4s linear;
+            border: #04aa6d solid 1px;
+            padding: 8px 68px;
+            margin: 0 8px;
+            color: #70c05b;
+            font-size: 16px;
+            border-radius: 4px;
+            background-color: #fff;
+            &:hover {
+              border: #ff6633 solid 1px;
+              background-color: #ff6633;
+              color: white;
+              box-shadow: 4px 8px 16px 0px #ff663333;
+            }
+          }
+        }
+        .card-h2 {
+          font-family: Rubik-bold;
+          font-size: 20px;
+          padding: 8px 140px 18px 0;
+          color: #414141;
+        }
+        .t-img {
+          width: 100%;
+        }
+        .Rating {
+          padding-top: 8px;
+        }
+        .card-text {
+          padding-left: 18px;
+          padding-bottom: 8px;
+          max-width: 257px;
+        }
+      }
+    }
+    .main-bottom-links {
+      display: flex;
+      align-items: center;
+      margin-left: 157px;
+      justify-content: center;
+      gap: 32px;
+      margin-top: 10px;
+      p {
+        padding: 9px;
+      }
+    }
+  }
+}

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Каталог</title>
+    <title>Ecommerce</title>
     <link rel="stylesheet" href="../scss/style.css" />
     <link
       rel="shortcut icon"
@@ -13,14 +13,14 @@
   <body>
     <header>
       <div class="container">
-        <a href="./index.html" class="header-logo"
+        <a href="../index.html" class="header-logo"
           ><img src="../assets/images/header/header-logo1.svg" alt="Logo bor" />
           <p>Северяночка</p>
         </a>
-        <div class="katalog-button">
+        <a href="./categories.html" class="katalog-button">
           <img src="../assets/images/header/menu.svg" alt="" />
           <p>Каталог</p>
-        </div>
+        </a>
         <div class="search">
           <input type="text" class="search-input" placeholder="Найти товар" />
           <img
@@ -28,24 +28,43 @@
             alt=""
             class="search-img" />
         </div>
-        <div class="header-card">
+        <a href="./favorite.html" class="header-card">
           <img src="../assets/images/header/Избранное-icon.svg" alt="" />
           <p>Избранное</p>
-        </div>
-        <div class="header-card">
+        </a>
+        <a href="../pages/product.html" class="header-card">
           <img src="../assets/images/header/продукты-icon.svg" alt="" />
           <p>продукты</p>
-        </div>
-        <div class="header-card">
+        </a>
+        <a href="./korzina.html" class="header-card">
           <img src="../assets/images/header/Корзина-icon.svg" alt="" />
           <p>Корзина</p>
-        </div>
-        <div class="Алексей">
+        </a>
+        <div class="Алексей" id="btn-open" style="cursor: pointer">
           <img src="../assets/images/header/Алексей.png" alt="Алексей" />
           <p>Алексей</p>
-          <button>
-            <img src="../assets/images/header/Алексей-icon.svg" alt="Алексей" />
-          </button>
+          <img src="../assets/images/header/Алексей-icon.svg" alt="Алексей" />
+        </div>
+        <div class="modal">
+          <div class="modal-content">
+            <img
+              src="../assets/images/home-page/x-icon.svg"
+              alt="x-icon"
+              id="modal-img"
+              style="cursor: pointer" />
+            <h4>Вход</h4>
+            <form>
+              <p style="padding-right: 275px">Телефон</p>
+              <input type="text" />
+            </form>
+            <button id="btn-close">Вход</button>
+            <div class="modal_bottom">
+              <a href="#" class="modal_bottom-1" id="btn-close">Регистрация</a>
+              <a href="#" class="modal_bottom-2" id="btn-close"
+                >Забыли пароль?</a
+              >
+            </div>
+          </div>
         </div>
       </div>
     </header>
@@ -102,5 +121,6 @@
       </div>
     </footer>
     <script src="../js/categories.js"></script>
+    <script src="../js/autorization.js"></script>
   </body>
 </html>
