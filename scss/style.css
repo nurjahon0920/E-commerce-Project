@@ -274,6 +274,83 @@ main .container .sec3 .cards .card .sec3-card-button {
   margin-top: 8px;
 }
 
+.products main .container {
+  font-family: Rubik;
+  background-color: #fbf8ec;
+  padding-top: 44px;
+}
+.products main .container .products-h1 {
+  font-family: Rubik-bold;
+  font-size: 36px;
+  color: #414141;
+  /* margin-top: 50px; */
+}
+.products main .container .cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  /* margin-top: 50px; */
+  width: 1208px;
+}
+.products main .container .cards .card {
+  display: flex;
+  width: 272px;
+  height: 349px;
+  margin-top: 50px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: left;
+}
+.products main .container .cards .card button {
+  transition: 0.4s linear;
+  border: #04aa6d solid 1px;
+  padding: 8px 68px;
+  margin: 0 8px;
+  color: #70c05b;
+  font-size: 16px;
+  border-radius: 4px;
+  background-color: #fff;
+}
+.products main .container .cards .card button:hover {
+  border: #ff6633 solid 1px;
+  background-color: #ff6633;
+  color: white;
+  box-shadow: 4px 8px 16px 0px rgba(255, 102, 51, 0.2);
+}
+.products main .container .cards .card-h2 {
+  font-family: Rubik-bold;
+  font-size: 20px;
+  padding: 8px 140px 18px 0;
+  color: #414141;
+}
+.products main .container .cards .t-img {
+  width: 100%;
+}
+.products main .container .cards .Rating {
+  padding-top: 8px;
+}
+.products main .container .cards .card-text {
+  padding-left: 18px;
+  padding-bottom: 8px;
+  max-width: 257px;
+}
+.products main .main-bottom-links {
+  display: flex;
+  align-items: center;
+  margin-left: 157px;
+  justify-content: center;
+  gap: 32px;
+  margin-top: 10px;
+}
+.products main .main-bottom-links p {
+  padding: 9px;
+}
+
 li,
 ol,
 ul {
@@ -1116,10 +1193,6 @@ footer .container .footer-right .footer-right-bottom p {
     color: #fff;
     background-color: #70c05b;
   }
-  main .container .sec5 img {
-    max-width: 737px;
-    width: 100%;
-  }
   main .container .sec6 {
     margin-top: 120px;
     margin-bottom: 80px;
@@ -1940,9 +2013,9 @@ footer .container .footer-right .footer-right-bottom p {
   margin: 0 auto;
   border-radius: 10px;
   box-shadow: 3px 3px 10px 5px rgba(0, 0, 0, 0.6);
-  background: #fff;
+  background-color: #fff;
   text-align: center;
-  opacity: 100%;
+  opacity: 1;
 }
 .container .modal .modal-content img {
   top: 0;

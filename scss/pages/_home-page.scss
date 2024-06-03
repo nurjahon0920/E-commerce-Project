@@ -45,6 +45,7 @@ header {
       margin-left: 40px;
       margin-right: 16px;
       border-radius: 4px;
+      cursor: pointer;
       p {
         color: #fff;
         padding-left: 16px;
@@ -74,14 +75,15 @@ header {
     .header-card {
       text-align: center;
       margin-right: 24px;
+      cursor: pointer;
     }
     .Алексей {
       display: flex;
       align-items: center;
+      cursor: pointer;
       p {
         padding: 0 10px;
       }
-      // background-color: #fff;
       border: none;
     }
   }
@@ -276,7 +278,6 @@ main {
           display: flex;
           gap: 10px;
           border-radius: 4px;
-          //   margin-right: 40px;
           justify-content: space-between;
           margin-bottom: 20px;
           .sec4-card-text {
@@ -422,7 +423,6 @@ footer {
     padding-bottom: 54px;
     justify-content: space-between;
     .footer-left {
-      //   margin: 20px;
       display: flex;
       align-items: center;
       max-width: 740px;
@@ -577,12 +577,9 @@ footer {
       left: 0;
       right: 0;
       top: 10;
-      // position: absolute;
     }
     .container {
       .sec1-position {
-        // z-index: 1000;
-        // position: relative;
         top: 0;
       }
       .sec-top {
@@ -839,10 +836,6 @@ footer {
             }
           }
         }
-        img {
-          max-width: 737px;
-          width: 100%;
-        }
       }
       .sec6 {
         margin-top: 120px;
@@ -917,12 +910,10 @@ footer {
       padding-bottom: 54px;
       justify-content: space-between;
       .footer-left {
-        //   margin: 20px;
         display: flex;
         align-items: center;
         max-width: 720px;
         justify-content: space-between;
-        // gap: 40px;
         .footer-left-menu {
           flex-wrap: wrap;
           gap: 16px;
@@ -1069,7 +1060,6 @@ footer {
     .container {
       .sec-top {
         display: flex;
-        // width: 168px;
         justify-content: space-between;
         margin-bottom: 16px;
         h2 {
@@ -1447,10 +1437,6 @@ footer {
           }
         }
         .footer-right-bottom {
-          // display: flex;
-          // position: absolute;
-          // top: 60px;
-          // right: 0;
           display: none;
           p {
             padding-right: 8px;

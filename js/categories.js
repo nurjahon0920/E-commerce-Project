@@ -1,4 +1,3 @@
-// const image = document.querySelector("img");
 let product = [
   {
     Image: "../assets/images/categories/categories-image1.png",
