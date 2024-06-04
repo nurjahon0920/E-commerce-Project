@@ -139,6 +139,25 @@ main {
     }
     .sec2 {
       margin-bottom: 120px;
+      #products,
+      #cart {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        .card,
+        .cart-item {
+          border: 1px solid #ccc;
+          padding: 10px;
+          margin: 10px;
+          width: 200px;
+          text-align: center;
+
+          button {
+            margin: 5px;
+          }
+        }
+      }
       .cards {
         display: flex;
         justify-content: space-between;
@@ -276,3 +295,15 @@ main {
     }
   }
 }
+
+//
+
+//
+
+//
+
+//
+
+//
+
+//
