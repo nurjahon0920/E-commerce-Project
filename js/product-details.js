@@ -27,24 +27,19 @@ function addToCartFromDetails() {
   }
 }
 //
-
 //
-
 //
-
 //
-
 //
-
 //
-
+//
+//
 document.addEventListener("DOMContentLoaded", () => {
   displayProductDetails();
 });
 
 function displayProductDetails() {
   const product = JSON.parse(localStorage.getItem("productDetails"));
-
   if (product) {
     document.getElementById("product-name").innerText = product.name;
     document.getElementById("product-image").src = product.image;
